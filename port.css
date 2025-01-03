@@ -1,0 +1,109 @@
+.{
+	padding: 0;
+	margin: 0;
+	}
+
+	.pink{
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		background: url(0);
+		width: 100%;
+		position: relative;
+		font-family: sans-serif;
+	}
+
+	.sweet{
+		justify-content: space-between;
+		align-items: center;
+		display: flex;
+		width: 84%;
+		padding: 16px 0;
+
+	}
+
+	.sweet .logo{
+		margin-left: -3%;
+		margin-top: -4%;
+		width: 150px;
+		cursor: pointer;
+	}
+
+	ul{
+		margin-top: 5%;
+	}
+
+	ul li{
+		list-style: none;
+		padding: 10px 18px;
+		display: inline-block;
+	}
+
+	ul li a{
+		color: darkslategrey;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: -2%;
+		transition: .5s ease;
+
+	}
+
+	ul li a:hover{
+		color: rgb(240, 102, 57);
+	}
+
+	.solo{
+		margin: 5%;
+		margin: 6%;
+}
+
+.solo h1{
+	color: rgb(38, 34, 32);
+	font-size: 63px;
+}
+
+.solo h3{
+	line-height: 26px;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.solo span{
+	color: rgb(240, 102, 57);
+}
+
+.solo a{
+	padding: 10px 16px;
+	text-decoration: none;
+	transition: .5s ease;
+	color: #fff;
+	display: inline-block;
+	background: rgb(38, 34, 32);
+	margin: 24px 0;
+	border-radius: 10px;
+}
+.solo a:hover{
+	background: rgb(57, 168, 207);
+}
+
+.image{
+	bottom: 0;
+	width: 25%;
+	height: 62%;
+	right: 100px;
+	position: absolute;
+}
+
+.image img{
+	bottom: 0;
+	height: 135%;
+	transition: left 1s ease;
+	transform: translate(-45%);
+	position: absolute;
+	left: 50%;
+}
+
+.image:hover .port{
+	left: 40%;
+}
